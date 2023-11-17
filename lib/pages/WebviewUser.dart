@@ -21,7 +21,7 @@ class WebviewUser extends StatefulWidget {
 }
 
 class _WebviewUserState extends State<WebviewUser> {
-  String url = "https://aguabudelli.com/adm/WebViewHtml.php?Correo=demo@purificadora.com&Contrasena=123456";
+  String url = "https://embarques.foli.com.mx/adm/WebViewHtml.php?Correo=demo@purificadora.com&Contrasena=123456";
   late StreamSubscription<Position> positionStream;
   @override
   void initState() {
@@ -147,7 +147,7 @@ class _WebviewUserState extends State<WebviewUser> {
       body: WebViewWidget(
      controller: WebViewController()
        ..setJavaScriptMode(JavaScriptMode.unrestricted)
-       ..loadRequest(Uri.parse("https://embarques.foli.com.mx:4433/adm/WebViewHtml.php?Correo=${widget.correo}&Contrasena=${widget.pass}"))
+       ..loadRequest(Uri.parse("https://embarques.foli.com.mx/adm/WebViewHtml.php?Correo=${widget.correo}&Contrasena=${widget.pass}"))
     )
     );
   }

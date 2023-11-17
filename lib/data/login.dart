@@ -6,17 +6,17 @@ import 'package:http/http.dart' as http;
 import '../../utils/parameters.dart';
 
 class LoginDataRequest{
-   String url = "https://embarques.foli.com.mx:4433/adm/WebViewLogin.php";
-   String urlPedidos = "https://aguabudelli.com/adm/ApiApp/Pedidos.php";
-   String urlCancelar = "https://aguabudelli.com/adm/ApiApp/PedidosCancelar.php";
-   String urlRegistro = "https://aguabudelli.com/adm/ApiApp/Registro.php";
-   String urlDetalle = "https://aguabudelli.com/adm/ApiApp/PedidosDetalle.php";
-   String urlEntregar = "https://aguabudelli.com/adm/ApiApp/PedidosEntregar.php";
-   String urlVentas = "https://aguabudelli.com/adm/ApiApp/Ventas.php";
-   String urlVentasDetalle = "https://aguabudelli.com/adm/ApiApp/VentasDetalle.php";
-   String urlZonas = "https://aguabudelli.com/adm/ApiApp/Zonas.php";
-   String urlGeo = "https://embarques.foli.com.mx:4433/adm/AppiCoordenadas/RecibirGeolocalizacion.php";
-   String urlDesact = "https://embarques.foli.com.mx:4433/adm/AppiCoordenadas/ActivarDesactivarGeolocalizacion.php";
+   String url = "https://embarques.foli.com.mx/adm/WebViewLogin.php";
+   String urlPedidos = "https://embarques.foli.com.mx/adm/ApiApp/Pedidos.php";
+   String urlCancelar = "https://embarques.foli.com.mx/adm/ApiApp/PedidosCancelar.php";
+   String urlRegistro = "https://embarques.foli.com.mx/adm/ApiApp/Registro.php";
+   String urlDetalle = "https://embarques.foli.com.mx/adm/ApiApp/PedidosDetalle.php";
+   String urlEntregar = "https://embarques.foli.com.mx/adm/ApiApp/PedidosEntregar.php";
+   String urlVentas = "https://embarques.foli.com.mx/adm/ApiApp/Ventas.php";
+   String urlVentasDetalle = "https://embarques.foli.com.mx/adm/ApiApp/VentasDetalle.php";
+   String urlZonas = "https://embarques.foli.com.mx/adm/ApiApp/Zonas.php";
+   String urlGeo = "https://embarques.foli.com.mx/adm/AppiCoordenadas/RecibirGeolocalizacion.php";
+   String urlDesact = "https://embarques.foli.com.mx/adm/AppiCoordenadas/ActivarDesactivarGeolocalizacion.php";
    DioCacheManager _dioCacheManager = DioCacheManager(CacheConfig());
    Options _cacheOptions = buildCacheOptions(Duration(days: 7),forceRefresh: true);
    Dio _dio = Dio();
