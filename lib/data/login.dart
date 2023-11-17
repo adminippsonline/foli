@@ -8,7 +8,7 @@ import '../../utils/parameters.dart';
 class LoginDataRequest{
    String url = "https://embarques.foli.com.mx/adm/WebViewLogin.php";
    String urlPedidos = "https://embarques.foli.com.mx/adm/ApiApp/Pedidos.php";
-   String urlCancelar = "https://embarques.foli.com.mx/adm/ApiApp/PedidosCancelar.php";
+   String urlCancelar = "#https://embarques.foli.com.mx/adm/ApiApp/PedidosCancelar.php";
    String urlRegistro = "https://embarques.foli.com.mx/adm/ApiApp/Registro.php";
    String urlDetalle = "https://embarques.foli.com.mx/adm/ApiApp/PedidosDetalle.php";
    String urlEntregar = "https://embarques.foli.com.mx/adm/ApiApp/PedidosEntregar.php";
